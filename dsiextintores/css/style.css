@@ -1,0 +1,190 @@
+*{
+	/*border:1px black solid;*/
+	font-family: 'Play', sans-serif;
+}
+
+hr{
+	border-top:black dotted 1px;
+}
+
+body{
+	border-top: 6px solid rgba(56, 56, 56, 1);
+	background: url("../assets/img/fondo.png") repeat #EDB722;
+	color:black;
+}
+
+.sombreado{
+	-webkit-box-shadow: 2px 28px 31px -8px rgba(0,0,0,0.75);
+	-moz-box-shadow: 2px 28px 31px -8px rgba(0,0,0,0.75);
+	box-shadow: 2px 28px 31px -8px rgba(0,0,0,0.75);
+}
+
+.contactanos{
+	background-color: black;
+	/*margin-left:25%;
+	margin-right:25%;*/
+	width:20vw;
+	color:white;
+	font-family: 'Oswald', sans-serif;
+	padding-bottom:1.5em;
+	border-radius:0px 0px 15px 15px;
+	z-index:200;
+}
+
+.contactanos span{
+	font-family:'Arial', sans-serif;
+	font-size: 1.5vw;
+}
+
+.contactanos h2{
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-size: 3vw;
+}
+
+.contactanos p{
+	font-size: 1.5vw;
+}
+
+.banner-top{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #E21A23;
+}
+
+.raya{
+	background: url("../assets/img/top_menu1.png") repeat-x;
+	height:1.1em;
+}
+
+.banner-bottom{
+	background-color: #000000;
+	margin-bottom: 0px;
+	color:white;
+	border-top: white 5px solid;
+}
+
+.titulo-pagina{
+	background-color: black;
+	margin-left:1vw;
+	margin-right:1vw;
+	margin-bottom: 2vw;
+	padding-right: 1vw;
+	padding-left: 1vw;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 5px;
+	display:inline-block;
+}
+
+.encabezado h1{
+	margin-top: 0px;
+	color:black;
+	font-size:1.5em;
+}
+
+.encabezado h2{
+	margin-top: 0px;
+	color:white;
+}
+.encabezado h3{
+	margin-top:0px;
+	font-size: 20px;
+	color:black;
+}
+
+.menu{
+	background-color:#383838;
+	font-weight: 700;
+}
+
+.menu ul li a{
+	color:white;
+	background:transparent url("../assets/img/shiny1button_bg.png") center center repeat-x;
+	background-color: black;
+	border-right:black solid 1px;
+	border-left:black solid 1px;
+	transition: background-color 0.25s ease;
+}
+
+.menu ul li.active a{
+	background-color: #E21A23;
+	color:white;
+}
+
+.menu ul li a:hover{
+	background-color: #E21A23;
+}
+
+.contenido h3{
+	font-size: 2em;
+}
+
+div#cuadro a{
+	background-color: black;
+	color:white;
+	border-width: 0px;
+	border-radius: 0px;
+	margin-left:3vw;
+	margin-right:3vw;
+	transition: background-color 0.25s ease;
+}
+
+div#cuadro a:hover{
+	background-color: #E21A23;
+}
+
+div img#ABC{
+	    margin: 0 auto;
+}
+
+.pie{
+	background:transparent url("../assets/img/pie_inicio.png") left center no-repeat;
+	background-size:contain;
+	height:15vw;
+}
+
+.extintor {
+    padding: 3px;
+    background-color: white;
+    border: red solid 2px;
+    min-width: 4vw;
+    box-shadow: black 0px 0px 0px 2px;
+}
+
+.quienes {
+    padding: 3px;
+    background-color: white;
+    border: red solid 2px;
+    box-shadow: black 0px 0px 0px 2px;
+}
+
+h4#encabezado-producto {
+    height: 2em;
+}
+
+h3#tamano-producto {
+    color: white;
+    margin-top: .5em;
+}
+
+#cuerpo-producto {
+    height: 6.5em;
+}
+.extintores{
+	border-left: black dotted 1px;
+	padding-left: 1vw;
+}
+
+.linea-2 #cuerpo-producto {
+    height: 12em;
+}
+
+#map {
+height: 400px;
+}
+
+.forma{
+	background-color: black;
+	color:white;
+}
