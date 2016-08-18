@@ -1,0 +1,33 @@
+* {
+    font-family: 'Oswald', sans-serif;
+}
+
+.logo {
+    background-color:red;
+    margin: 5px;
+}
+
+.footer {
+    margin-bottom: 10px;
+}
+
+.portfolio-name {
+    margin: 20px 0 0px;
+}
+
+.header {
+    margin-top: 40px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+#featured-panel {
+    padding: 175px 0px;
+}
+
+#contact-panel {
+    padding: 175px 0px;
+}
